@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows: auto;
+  justify-content: space-between;
+  background-color: rgb(212, 211, 211);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#card_box{
+  /* border: 1px solid black; */
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+ 
+}
+#card_box:hover{
+  box-shadow: 0px 0px 10px 10px rgb(94, 2, 2);
+}
+img{
+  width: 100%;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+}
+#card{
+  /* border: 1px solid black; */
+  border-radius: 0px 0px 20px 20px;
+  background-color: white;
+  margin-top: -4px;
+  padding-top: 10px;
+  /* margin-bottom: 20px; */
+}
+#head{
+  color: grey;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+text-decoration: underline;
+}
+button{
+  padding: 10px 25px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+button:hover{
+  border: 5px solid black;
+  background-color: rgb(149, 7, 7);
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+#title:hover{
+  color: rgb(231, 15, 15);
+  text-shadow: 0px 2px 2px black;
+}
+#card_cat:hover{
+  text-decoration: underline;
+}
